@@ -1,0 +1,18 @@
+name: base
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - flask
+  - joblib
+  - requests
+  - pip:
+    - streamlit
+    - plotly
+    - paho-mqtt
