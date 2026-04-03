@@ -1,5 +1,4 @@
 # Smart Agriculture System
-**BCA Major Project | Academic Year 2024-2025**
 
 Integrating IoT · Machine Learning · Advanced Data Structures
 

@@ -70,7 +70,7 @@ def get_readings():
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/wheat.png", width=80)
     st.title("🌾 Smart Agriculture")
-    st.caption("BCA Major Project | 2024-25")
+    st.caption("Smart Agriculture System")
     st.divider()
 
     st.subheader("🔮 Crop Recommendation")
@@ -215,6 +215,6 @@ for row in readings:
 # ── Footer ───────────────────────────────────────────────────
 st.divider()
 col_l, col_r = st.columns([3,1])
-col_l.caption("Smart Agriculture System · BCA Major Project 2024-25 · AADS + FML + IoT")
+col_l.caption("Smart Agriculture System · AADS + FML + IoT")
 if col_r.button("🔄 Refresh Data"):
     st.rerun()
